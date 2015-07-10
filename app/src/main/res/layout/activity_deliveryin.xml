@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_map1"
+    tools:context="com.aka.foodator.deliveryin">
+
+    <AutoCompleteTextView
+        android:id="@+id/autotext_cities"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@mipmap/city_outline_box"
+        android:drawableLeft="@drawable/gps_button"
+        android:hint="   City , Neighbourhood , Landmarks "
+        android:padding="7dp"
+        android:textSize="13dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/black" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autotext_restaurants"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/autotext_cities"
+        android:drawableLeft="@drawable/magnify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@mipmap/city_outline_box"
+        android:hint="   Restaurant , Eating Joint , Food Junction "
+        android:padding="7dp"
+        android:paddingBottom="10dp"
+        android:textSize="13dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="77dp"
+        android:background="@color/primaryColor"
+        android:text="SUGGEST"
+        android:textColor="@color/off_white"
+        android:textSize="20dp"
+        android:layout_below="@+id/autotext_restaurants"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Foodator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_deliveryin">deliveryin</string>
+    <string name="title_activity_dinein">dinein</string>
+<string-array name="cities_array">
+    <item>Mumbai</item>
+    <item>Delhi</item>
+    <item>Gurgaon</item>
+    <item>Kolkata</item>
+    <item>Chennai</item>
+    <item>Bangalore</item>
+    <item>Roorkee</item>
+    <item>Faridabad</item>
+    ...
+</string-array>
+</resources>

@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/pizza"
+
+
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.goka.kenburnsview.KenBurnsView
+        android:id="@+id/ken_burns_view"
+        android:layout_width="match_parent"
+        android:scaleType = "centerCrop"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/view_pager_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:text="We know the Chef's Special"-->
+            <!--android:textSize="40dp"-->
+            <!--android:textColor="#FFF"-->
+            <!--android:id="@+id/textView"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignRight="@+id/button_dinein"-->
+            <!--android:layout_alignEnd="@+id/button_dinein"-->
+            <!--android:layout_marginRight="74dp"-->
+            <!--android:layout_marginEnd="74dp"-->
+            <!--android:layout_marginTop="89dp"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:typeface="normal"-->
+            <!--android:layout_gravity="left|top" />-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:padding="40dp"
+            android:src="@drawable/chefs_special"
+            android:layout_gravity="left|top" />
+    </FrameLayout>
+
+
+
+    <Button
+        android:id="@+id/button_dinein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cc6600"
+        android:text="  DINE-IN  "
+        android:textColor="@color/off_white"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="40dp"
+        android:onClick="onDineInclicked"
+        android:layout_alignTop="@+id/button_delivery"
+        android:layout_toLeftOf="@+id/button_delivery"
+        android:layout_toStartOf="@+id/button_delivery"
+        android:layout_marginEnd="50dp">
+
+    </Button>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cc6600"
+        android:text="  DELIVERY  "
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:onClick="onDeliveryClicked"
+        android:textColor="@color/off_white"
+
+        android:id="@+id/button_delivery"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <!--<ImageView-->
+
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:id="@+id/imageView_delivery"-->
+        <!--android:src="@mipmap/delivery_button"-->
+        <!--android:layout_alignTop="@+id/imageView_dine"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:id="@+id/imageView_dine"-->
+        <!--android:src="@mipmap/dinein_button"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginBottom="102dp" />-->
+    <!--<RelativeLayout-->
+    <!--android:layout_below="@+id/layout_1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@mipmap/back"-->
+    <!-->-->
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:src="@mipmap/dine_in_combined"-->
+    <!--android:id="@+id/imageView_dine"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:id="@+id/imageView_delivery"-->
+    <!--android:src="@mipmap/delivery_combined"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentEnd="true" />-->
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>
