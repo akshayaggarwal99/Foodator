@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aka.foodator" >
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -32,13 +33,39 @@
         </activity>
         <activity
             android:name=".dinein"
-            android:theme="@style/AppTheme"
-            android:label="@string/title_activity_dinein" >
+            android:label="@string/title_activity_dinein"
+            android:theme="@style/AppTheme" >
         </activity>
         <activity
             android:name=".deliveryin"
             android:label="@string/title_activity_deliveryin" >
         </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Registered"
+            android:label="Registered" >
+        </activity>
+        <activity
+            android:name=".Main"
+            android:label="Main" >
+        </activity>
+        <activity
+            android:name=".PasswordReset"
+            android:label="PasswordReset" >
+        </activity>
+        <activity
+            android:name=".ChangePassword"
+            android:label="ChnagePassword" >
+        </activity>
+
     </application>
 
 </manifest>

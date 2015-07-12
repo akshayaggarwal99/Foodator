@@ -6,11 +6,11 @@ public final class SampleImages {
 
     public static final Object[] IMAGES_MIX = new Object[]{
             "http://www.bandwidthblog.com/wp-content/uploads/2011/11/twitter-logo.png",
-            R.drawable.pasta,
+          //  R.drawable.pasta,
             "http://cdn.geekwire.com/wp-content/uploads/2011/04/firefox.png?7794fe",
-            R.drawable.chicken1,
-            "http://weloveicons.s3.amazonaws.com/icons/100929_applications.png",
-            R.drawable.hotdog1
+           // R.drawable.chicken1,
+            "http://weloveicons.s3.amazonaws.com/icons/100929_applications.png"
+           // R.drawable.hotdog1
     };
 
     public static final Integer[] IMAGES_RESOURCE = new Integer[]{

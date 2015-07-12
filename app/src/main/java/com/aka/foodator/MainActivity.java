@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onDineInclicked(View view) {
-        Intent i = new Intent(getApplicationContext(),dinein.class);
+        Intent i = new Intent(getApplicationContext(),Login.class);
         startActivity(i);
     }
 
