@@ -1,11 +1,5 @@
 package com.aka.foodator.library;
 
-/**
- * Author :Raj Amal
- * Email  :raj.amalw@learn2crack.com
- * Website:www.learn2crack.com
- **/
-
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.http.NameValuePair;

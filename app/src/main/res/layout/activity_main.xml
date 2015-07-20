@@ -53,7 +53,7 @@
         android:id="@+id/button_dinein"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#cc6600"
+        android:background="#cc3333"
         android:text="  DINE-IN  "
         android:textColor="@color/off_white"
         android:textSize="20sp"
@@ -73,7 +73,7 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#cc6600"
+        android:background="#cc3333"
         android:text="  DELIVERY  "
         android:textSize="20dp"
         android:paddingLeft="10dp"

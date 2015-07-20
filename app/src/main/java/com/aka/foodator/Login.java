@@ -8,6 +8,7 @@ package com.aka.foodator;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -62,6 +63,15 @@ public class Login extends Activity {
         btnLogin = (Button) findViewById(R.id.btnLogin);
         passreset = (Button)findViewById(R.id.passres);
         loginErrorMsg = (TextView) findViewById(R.id.loginErrorMsg);
+
+        Typeface face = Typeface.createFromAsset(getAssets(),
+                getString(R.string.lato));
+        btnLogin.setTypeface(face);
+        passreset.setTypeface(face);
+        loginErrorMsg.setTypeface(face);
+        Btnregister.setTypeface(face);
+        inputEmail.setTypeface(face);
+        inputPassword.setTypeface(face);
 
         passreset.setOnClickListener(new View.OnClickListener() {
         public void onClick(View view) {
@@ -227,7 +237,7 @@ public class Login extends Activity {
                        /**
                         *If JSON array details are stored in SQlite it launches the User Panel.
                         **/
-                        Intent upanel = new Intent(getApplicationContext(), Main.class);
+                        Intent upanel = new Intent(getApplicationContext(), MainActivity.class);
                         upanel.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         pDialog.dismiss();
                         startActivity(upanel);

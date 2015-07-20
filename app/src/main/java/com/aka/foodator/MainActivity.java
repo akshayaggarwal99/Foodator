@@ -2,7 +2,9 @@ package com.aka.foodator;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -24,11 +27,18 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    Button one , two;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        one = (Button) findViewById(R.id.button_dinein);
+        two = (Button) findViewById(R.id.button_delivery);
+        Typeface face = Typeface.createFromAsset(getAssets(),
+                getString(R.string.lato));
+        one.setTypeface(face);
+        two.setTypeface(face);
         initializeKenBurnsView();
 
 

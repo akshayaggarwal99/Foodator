@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primaryColor">#cc6600</color>
-    <color name="primaryColorDark">#cc3300</color>
+    <color name="primaryColor">#e5483a</color>
+    <color name="primaryColorDark">#a23329</color>
     <color name="accentColor">#F50057</color>
     <color name="sinch_purple">#80CBC4</color>
     <color name="off_white">#fffafafa</color>
@@ -15,7 +15,7 @@
 
 
     <color name="bg_login">#26ae90</color>
-    <color name="bg_register">#2e3237</color>
+    <color name="bg_register">#cccccc</color>
     <color name="bg_main">#428bca</color>
     <color name="white">#ffffff</color>
     <color name="input_login">#222222</color>

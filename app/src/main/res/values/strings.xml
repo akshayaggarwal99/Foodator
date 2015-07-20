@@ -4,7 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_splash">splash</string>
-    <string name="title_activity_deliveryin">deliveryin</string>
+    <string name="title_activity_deliveryin">Search</string>
     <string name="title_activity_dinein">dinein</string>
 
     <string name="hint_email">Email</string>
@@ -33,4 +33,5 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_logged_in">LoggedIn</string>
+    <string name="lato">Lato-Regular.ttf</string>
 </resources>
